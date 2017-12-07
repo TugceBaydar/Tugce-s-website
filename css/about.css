@@ -1,0 +1,267 @@
+/** {box-sizing:border-box}*/
+
+body {
+  background: url(https://farm8.staticflickr.com/7029/6405229911_70988a7587_b.jpg) no-repeat center fixed;
+  background-size: cover;
+}
+
+#navbar {
+  /*height:100px;*/
+  font-family: 'Marck Script', cursive;
+  font-size: 18px;
+  position: absolute;
+  top: 50px;
+  width: 900px;
+  left: 200px;
+
+
+}
+
+#navbar > ul {
+  position: relative;
+  top: 15px;
+  left: 0;
+
+}
+
+#navbar .navbar-brand,
+    #navbar li > a {
+  color: white;
+}
+#navbar #ul {
+  display: inline;
+}
+
+#navbar li {
+  display: inline-block;
+  padding-right: 30px;
+}
+
+#navbar li .active {
+  opacity: 0.5;
+}
+
+#navbar li > a {
+  text-decoration: none;
+}
+
+.ul-right {
+  float:right;
+  margin-top: 30px;
+}
+
+ul li:hover {
+
+}
+ul li:hover ul {
+  display: block;
+}
+ul li ul {
+  position: absolute;
+  width: 200px;
+  display: none;
+  padding-left: 0px;
+
+}
+ul li ul li {
+  padding-top: 10px;
+  display: block;
+  background-color: black;
+  padding-left: 10px;
+}
+
+
+
+hr {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+}
+
+
+
+  /*----------middle-container-------*/
+
+.middle-container {
+  height: 900px;
+  margin: 0 10px;
+  width:900px;
+  margin-left: 200px;
+}
+
+#map {
+    width:900px;
+    height:400px;
+    top:180px;
+  }
+
+.cmap {
+  width:100%;
+}
+
+.contacts {
+
+  margin-top: 200px;
+  color:white;
+}
+
+.contacts .row {
+  margin: 0 auto;
+  padding-top: 100px;
+}
+        /*sidebar nav*/
+#mySidenav {
+  position: absolute;
+  bottom: 1000px;
+  left:-52px;
+  top:0;
+}
+
+
+#mySidenav a {
+    position: absolute;
+    right: -80px;
+    transition: 0.3s;
+    padding: 15px;
+    width: 108px;
+    height: 60px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    border-radius: 0 5px 5px 0;
+    padding-left: 50px;
+}
+
+#mySidenav a:hover {
+    left: 0;
+}
+
+
+
+/* Style all font awesome icons */
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+
+/* Add a hover effect */
+.fa:hover {
+    opacity: 0.7;
+}
+
+
+#facebook {
+    width: 120px;
+    top: 250px;
+    background-color: #3B5998;
+}
+
+#twitter {
+    top: 300px;
+    background-color: #55ACEE;
+    margin-top:10px;
+}
+
+#youtube {
+    top: 350px;
+    background-color: #bb0000;
+    margin-top: 20px;
+}
+
+#snapchat {
+    top: 400px;
+    background-color: #fffc00;
+    margin-top: 30px;
+}
+
+
+              /*sidebar nav ends*/
+
+
+
+
+
+
+                /*------footer----*/
+footer {
+   background-color: #262626;
+
+}
+
+/*#register {
+  width:500px;
+  height: 200px;
+  margin-left: 20px;
+}*/
+
+/*.btn-default {
+  box-shadow: 3px 3px 5px 0px rgba(160, 100, 12, 0.92);
+}*/
+
+
+/*---------------sign Up section ------------*/
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+    padding: 14px 20px;
+    background-color: #f44336;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn,.signupbtn {
+    float: left;
+    width: 50%;
+}
+
+/* Add padding to container elements */
+.container {
+    padding: 16px;
+    width: 532px;
+    margin-left: 20px;
+
+
+}
+.span-signup {
+  color: #695710;
+}
+
+/* Clear floats */
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+    .cancelbtn, .signupbtn {
+       width: 100%;
+    }
+}

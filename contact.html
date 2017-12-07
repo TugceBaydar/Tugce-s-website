@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Contact</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Kalam" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative:400,700|Marck+Script" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Euphoria+Script|Marck+Script" rel="stylesheet">
+  <link rel="stylesheet" href="css/animate.css">
+  <link rel="stylesheet" href="css/about.css">
+</head>
+
+  <body>
+        <nav id="navbar">
+
+            <div>
+              <a class="navbar-brand" href="#">WebSiteName</a>
+            </div>
+            <ul id="ul">
+                <li><a href="file:///Users/Matt/Desktop/codify/indiviual%20project/index.html"><hr>Home</a></li>
+                <li><a href="#"><hr>Take a test</a></li>
+                <li><a href="#"><hr>analysis</a></li>
+                <li>
+                    <a href="#"><hr>Articles
+                    <span class="caret"></span></a>
+                    <ul>
+                      <li><a href="#"><hr>Articles 1-1</a></li>
+                      <li><a href="#"><hr>Articles 1-2</a></li>
+                      <li><a href="#"><hr>Articles 1-3</a></li>
+                    </ul>
+                </li>
+                <li><a href="file:///Users/Matt/Desktop/codify/indiviual%20project/contact.html"><hr>Contact</a></li>
+
+              <ul class="ul-right">
+                <li><a href="#register"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+                <li><a href="file:///Users/Matt/Desktop/codify/indiviual%20project/login.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+              </ul>
+          </ul>
+
+        </nav>
+
+
+
+
+    <section class="middle-container">
+
+
+          <div class="sidenav" id="mySidenav">
+              <a href="#" id="facebook" class="fa fa-facebook"></a>
+              <a href="#" id="twitter" class="fa fa-twitter"></a>
+              <a href="#" id="youtube" class="fa fa-youtube"></a>
+              <a href="#" id="snapchat" class="fa fa-snapchat-ghost"></a>
+          </div>
+
+
+
+              <div id="map">My map will go here</div>
+
+
+              <div class="contacts">
+                 <div class="row">
+                   <div class="col-sm-4">
+                     <div class="contacts-item">
+                       <div class="icon-b"><i class="fa fa-map-marker"></i></div>
+                       <address class="adr"><span class="country-name">United States</span>, <span class="locality">San Francisco/CA</span>, <br><span class="street-address">Stockton St</span></address>
+                     </div>
+                   </div>
+                   <div class="col-sm-4">
+                     <div class="contacts-item">
+                       <div class="icon-b"><i class="fa fa-phone"></i></div><span class="tel">+1 628 800 4358</span>
+                     </div>
+                   </div>
+                   <div class="col-sm-4">
+                     <div class="contacts-item">
+                       <div class="icon-b"><i class="fa fa-send"></i></div><a href="mailto:baydartech@gmail.com" class="email">baydartech@gmail.com</a>
+                     </div>
+                   </div>
+                 </div>
+
+          </section>
+
+
+
+
+      <footer id="footer">
+        <!-- sign up section -->
+          <section id="register">
+            <!-- <form class="form-horizontal">
+                 <div class="form-group">
+                   <label class="control-label col-sm-2" for="email">Email:</label>
+                   <div class="col-sm-10">
+                     <input type="email" class="form-control" id="email" placeholder="Enter email">
+                   </div>
+                 </div>
+                 <div class="form-group">
+                   <label class="control-label col-sm-2" for="pwd">Password:</label>
+                   <div class="col-sm-10">
+                     <input type="password" class="form-control" id="pwd" placeholder="Enter password">
+                   </div>
+                 </div>
+                 <div class="form-group">
+                   <div class="col-sm-offset-2 col-sm-10">
+                     <div class="checkbox">
+                       <label><input type="checkbox"> Remember me</label>
+                     </div>
+                   </div>
+                 </div>
+                 <div class="form-group">
+                   <div class="col-sm-offset-2 col-sm-10">
+                     <button type="button" class="btn btn-default" onclick="signUp()">Submit</button>
+                   </div>
+                 </div>
+                </form> -->
+                <form action="/action_page.php" style="border:1px solid #ccc">
+                  <div class="container">
+                    <label><b>Email</b></label>
+                    <input id="newUser" type="text" placeholder="Enter Your Name" name="name" required>
+
+                    <label><b>Password</b></label>
+                    <input id="newPassword" type="password" placeholder="Enter Password" name="psw" required>
+
+
+                    <label><b>Repeat Password</b></label>
+                    <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+                    <input type="checkbox" checked="checked"><span class="span-signup"> Remember me</span>
+                    <p>By creating an account you agree to our <a href="#"><span class="span-signup">Terms & Privacy</span></a>.</p>
+
+                    <div class="clearfix">
+                      <button type="button" class="cancelbtn">Cancel</button>
+                      <button type="submit" class="signupbtn">Sign Up</button>
+                    </div>
+                  </div>
+                </form>
+
+          </section>
+      </footer>
+
+    <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?callback=myMap"></script>
+
+  </body>
+
+</html>
